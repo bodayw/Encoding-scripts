@@ -5,7 +5,7 @@ $eps = (1..12)
 $eps = $eps | % {$_.ToString("00")}
 
 function Mux-Batch ($ep) {
- $filename = "[Airota&Nekomoe kissaten&LoliHouse] Yagate Kimi ni Naru - $ep [WebRip 1080p HEVC-yuv420p10 AAC ASSx2]"
+ $filename = "[Airota&Nekomoe kissaten&LoliHouse] Yagate Kimi ni Naru - $ep [WebRip 1080p HEVC-10bit AAC ASSx2]"
  
  C:\Encoding\AssFontSubset.exe $PSScriptRoot\$ep-sc.ass $PSScriptRoot\$ep-tc.ass | Out-Null
  
